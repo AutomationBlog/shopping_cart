@@ -30,7 +30,7 @@ export default function Product() {
                     <div className="col mb-5">
                         <div className="card h-100">
                             {/*<!-- Sale badge-->*/}
-                            <div className="badge bg-dark text-white position-absolute" style={{marginTop: "0.5rem", marginRight: "0.5rem"}}>Sale</div>
+                            <div className="badge bg-dark text-white position-absolute" style={{marginTop: "0.5rem", marginLeft: "0.5rem"}}>Sale</div>
                             {/*<!-- Product image-->*/}
                             <img className="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
                             {/*<!-- Product details-->*/}
@@ -60,7 +60,7 @@ export default function Product() {
                     <div className="col mb-5">
                         <div className="card h-100">
                             {/*<!-- Sale badge-->*/}
-                            <div className="badge bg-dark text-white position-absolute" style={{marginTop: "0.5rem", marginRight: "0.5rem"}}>Sale</div>
+                            <div className="badge bg-dark text-white position-absolute" style={{marginTop: "0.5rem", marginLeft: "0.5rem"}}>Sale</div>
                             {/*<!-- Product image-->*/}
                             <img className="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
                             {/*<!-- Product details-->*/}
@@ -109,7 +109,7 @@ export default function Product() {
                     <div className="col mb-5">
                         <div className="card h-100">
                             {/*<!-- Sale badge-->*/}
-                            <div className="badge bg-dark text-white position-absolute" style={{marginTop: "0.5rem", marginRight: "0.5rem"}}>Sale</div>
+                            <div className="badge bg-dark text-white position-absolute" style={{marginTop: "0.5rem", marginLeft: "0.5rem"}}>Sale</div>
                             {/*<!-- Product image-->*/}
                             <img className="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
                             {/*<!-- Product details-->*/}
@@ -150,7 +150,7 @@ export default function Product() {
                     <div className="col mb-5">
                         <div className="card h-100">
                             {/*<!-- Sale badge-->*/}
-                            <div className="badge bg-dark text-white position-absolute" style={{marginTop: "0.5rem", marginRight: "0.5rem"}}>Sale</div>
+                            <div className="badge bg-dark text-white position-absolute" style={{marginTop: "0.5rem", marginLeft: "0.5rem"}}>Sale</div>
                             {/*<!-- Product image-->*/}
                             <img className="card-img-top" src="https://dummyimage.com/450x300/dee2e6/6c757d.jpg" alt="..." />
                             {/*<!-- Product details-->*/}
