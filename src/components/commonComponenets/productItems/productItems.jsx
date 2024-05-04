@@ -62,16 +62,16 @@ export default function ProductItems({ items, cart, setCart }) {
               </div>
               {/*<!-- Product actions-->*/}
               <div className="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                <div className="text-center">
+                <div className="text-center ">
                   {items.sales ? (
                     <div>
                       {cart.includes(items) ? (
                         <a
-                          className="btn btn-outline-dark mt-auto"
+                          className="btn btn-outline-dark mt-auto text-danger"
                           href="#"
                           onClick={() => removeFromCart(items)}
                         >
-                          Remove cart
+                          <strong>Remove from Cart</strong>
                         </a>
                       ) : (
                         <a
@@ -79,7 +79,7 @@ export default function ProductItems({ items, cart, setCart }) {
                           href="#"
                           onClick={() => addToCart(items)}
                         >
-                          Add to cart
+                          <strong>Add to Cart</strong>
                         </a>
                       )}
                     </div>
